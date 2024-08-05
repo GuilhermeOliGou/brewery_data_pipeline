@@ -2,7 +2,7 @@ import os
 
 class PathController():
     def __init__(self):
-        self.base_dir = os.path.join('..','..','data')
+        self.base_dir = os.path.join('..','data')
         self.bronze_data_dir = os.path.join(self.base_dir,'bronze_layer')
         self.silver_data_dir = os.path.join(self.base_dir,'silver_layer')
         self.gold_data_dir = os.path.join(self.base_dir,'gold_layer')
