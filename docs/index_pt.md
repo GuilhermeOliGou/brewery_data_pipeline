@@ -34,7 +34,7 @@ O projeto faz manipulações estáticas em um conjunto de dados público e as tr
 brewery_data_pipeline/
 │
 ├── airflow/
-│   └── data_transformation_notebook_1.ipynb
+│   └── dag_1.py
 │
 ├── docker/
 │   ├── Dockerfile
@@ -42,10 +42,10 @@ brewery_data_pipeline/
 │   └── requirements.txt
 │
 ├── docs/
-│   └── data_transformation_notebook_1.ipynb
+│   └── docs_1.md
 │
 ├── great_expectations/
-│   └── data_transformation_notebook_1.ipynb
+│   └── brewery_expectations.py
 │
 ├── notebooks/
 │   ├── data_transformation_notebook_1.ipynb
@@ -53,12 +53,12 @@ brewery_data_pipeline/
 │   └── data_transformation_notebook_3.ipynb
 │
 ├── src/
-│   └── test_gold_layer.py
+│   └── utils.py
 │
 ├── tests/
 │   └── test_src.py
 │
-├── license./
+├── LICENSE
 │
 └── README.md
 

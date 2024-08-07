@@ -12,6 +12,6 @@ If you want to know more [click here](docs/index_en.md).
 
 Bem-vindo ao repositório do Brewery Data Pipeline!
 
-O Brewery Data Pipeline é um exercício prática de Engenharia de Dados.
+O Brewery Data Pipeline é um exercício prático de Engenharia de Dados.
 
 Para saber mais [clique aqui](docs/index_pt.md).
