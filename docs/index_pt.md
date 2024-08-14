@@ -64,16 +64,16 @@ brewery_data_pipeline/
 
 ## Roadmap
 
-### Até 12 de agosto
+### Até 17 de agosto
 - [x] Notebooks de transformação
 - [x] DAG do Airflow
 - [x] Criação da biblioteca local src
 - [ ] Conteineirização usando Docker
 
-### Até 16 de adosto
+### Até 24 de adosto
 - [ ] Validações do great expectations
 
-### Até 23 de agosto
+### Até 31 de agosto
 - [ ] Testes unitários
 - [ ] CI/CD com o Github actions
 
@@ -82,3 +82,4 @@ brewery_data_pipeline/
 - **2024-07-26**: Lançamento da feature Notebooks de transformação
 - **2024-07-26**: Lançamento da feature DAG do Airflow
 - **2024-07-26**: Lançamento da feature Criação da biblioteca local src
+- **2024-08-13**: Atualização do roadmap
