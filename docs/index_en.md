@@ -68,7 +68,6 @@ brewery_data_pipeline/
 - [x] Transformation notebooks
 - [x] Airflow DAG
 - [x] Local library src
-- [ ] Containerization using Docker
 
 ### Until August 24th
 - [ ] Great Expectations validations
@@ -77,9 +76,13 @@ brewery_data_pipeline/
 - [ ] Unit tests
 - [ ] CI/CD with Github actions
 
+### Until September 24th
+- [ ] Containerization using Docker
+
 ### Updates
 - **2024-07-19**: Project start
 - **2024-07-26**: Release of the Transformation notebooks feature
 - **2024-07-26**: Release of the Airflow DAG feature
 - **2024-07-26**: Release of the Local library src feature
 - **2024-08-13**: Roadmap update
+- **2024-08-20**: Feature priority change
