@@ -1,0 +1,1285 @@
+[
+    {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+            "min_value": 50,
+            "max_value": 50
+        }
+    },
+    {
+        "expectation_type": "expect_table_columns_to_match_set",
+        "kwargs": {
+            "column_set": [
+                "state_province",
+                "country",
+                "website_url",
+                "address_1",
+                "state",
+                "address_2",
+                "phone",
+                "latitude",
+                "name",
+                "postal_code",
+                "city",
+                "street",
+                "id",
+                "address_3",
+                "longitude",
+                "brewery_type"
+            ],
+            "exact_match": null
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "address_1"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "address_2"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "address_3"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "latitude"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "longitude"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "postal_code"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_unique",
+        "kwargs": {
+            "column": "street"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_null",
+        "kwargs": {
+            "column": "address_3"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "brewery_type"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "city"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "country"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "name"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "postal_code"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "state"
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+            "column": "state_province"
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 9,
+            "strict_min": false,
+            "column": "address_1",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 30
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "address_1",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 8,
+            "strict_min": false,
+            "column": "address_2",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 8
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 0,
+            "strict_min": false,
+            "column": "address_3",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 5,
+            "strict_min": false,
+            "column": "brewery_type",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 10
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "brewery_type",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 4,
+            "strict_min": false,
+            "column": "city",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 16
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "city",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 7,
+            "strict_min": false,
+            "column": "country",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 13
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "country",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 8,
+            "strict_min": false,
+            "column": "latitude",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 17
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "\\d+",
+            "column": "latitude",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 10,
+            "strict_min": false,
+            "column": "longitude",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 18
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "\\d+",
+            "column": "longitude",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 10,
+            "strict_min": false,
+            "column": "name",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 45
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "\\d+",
+            "column": "name",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 10,
+            "strict_min": false,
+            "column": "phone",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 12
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "\\d+",
+            "column": "phone",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 5,
+            "strict_min": false,
+            "column": "postal_code",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 10
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "\\d+",
+            "column": "postal_code",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 4,
+            "strict_min": false,
+            "column": "state",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 14
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "state",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 4,
+            "strict_min": false,
+            "column": "state_province",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 14
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "state_province",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 9,
+            "strict_min": false,
+            "column": "street",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 30
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "street",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+            "min_value": 18,
+            "strict_min": false,
+            "column": "website_url",
+            "mostly": 1.0,
+            "strict_max": false,
+            "max_value": 34
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_match_regex",
+        "kwargs": {
+            "regex": "[A-Za-z0-9\\.,;:!?()\\\"'%\\-]+",
+            "column": "website_url",
+            "mostly": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "address_1",
+            "mostly": 1.0,
+            "value_set": [
+                "490 Mill St",
+                "5417 Oakley Ave",
+                "294793 US Highway 101",
+                "250 Mill St, Suite PW3101",
+                "100 B South Olive St",
+                "1129 Irvin Garrish Hwy",
+                "826 W Bannock St",
+                "2005 2nd Ave",
+                "3000 E Ray Rd Bldg 6",
+                "8100 Washington Ave",
+                "820 Main St",
+                "407 Radam Ln Ste F200",
+                "413 S Bedford St",
+                "2801 Walnut St",
+                "1135 NW Galveston Ave Ste B",
+                "62970 18th St",
+                "1304 Scott St Ste D",
+                "1323 Capital Blvd 1323 R and D",
+                "2416 Meridian St",
+                "342 E Ward St",
+                "491 Washington St",
+                "62950 NE 18th St",
+                "1716 Topeka St",
+                "Unnamed Street",
+                "2620 Walnut St",
+                "753 Reading Rd",
+                "5725 Miller Ave",
+                "1043 Park St",
+                "1146 colonel Joshua Ct",
+                "322 E Court Ave",
+                "6410 SE Milwaukie Ave",
+                "11109 Plank Rd",
+                "141 E 4th St Ste LL2",
+                "2010 A State Ave",
+                "1501 E St",
+                "3090 Shirley Dr",
+                "6820 Bourgeois Rd",
+                "80 Earhart Dr Ste 20",
+                "31125 Via Colinas Ste 907",
+                "141 E Main St",
+                "2045 N Forbes Blvd Ste 105",
+                "1411 NW Flanders St",
+                "400 Brown Cir",
+                "133 N Main St Ste 7",
+                "1301 S Chestnut St",
+                "7391 Forbes Rd",
+                "9542 Main St"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 47,
+            "strict_min": false,
+            "column": "address_1",
+            "strict_max": false,
+            "max_value": 47
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "address_1",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "address_2",
+            "mostly": 1.0,
+            "value_set": [
+                "Clonmore"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 1,
+            "strict_min": false,
+            "column": "address_2",
+            "strict_max": false,
+            "max_value": 1
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "address_2",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "address_3",
+            "mostly": 1.0,
+            "value_set": []
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 0,
+            "strict_min": false,
+            "column": "address_3",
+            "strict_max": false,
+            "max_value": 0
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0,
+            "strict_min": false,
+            "column": "address_3",
+            "strict_max": false,
+            "max_value": 0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "brewery_type",
+            "mostly": 1.0,
+            "value_set": [
+                "brewpub",
+                "closed",
+                "proprietor",
+                "large",
+                "micro",
+                "contract"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 6,
+            "strict_min": false,
+            "column": "brewery_type",
+            "strict_max": false,
+            "max_value": 6
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.12,
+            "strict_min": false,
+            "column": "brewery_type",
+            "strict_max": false,
+            "max_value": 0.12
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "city",
+            "mostly": 1.0,
+            "value_set": [
+                "Gary",
+                "Georgetown",
+                "Holland Patent",
+                "Reno",
+                "Mariposa",
+                "Hammond",
+                "Mason",
+                "Williamsville",
+                "Houston",
+                "San Diego",
+                "Saint Paul",
+                "Knox",
+                "Norman",
+                "okolona",
+                "Denver",
+                "Castle Rock",
+                "Mesa",
+                "Bellingham",
+                "Coraopolis",
+                "Abington",
+                "Crosslake",
+                "Assumption",
+                "Taylors",
+                "John Day",
+                "Ocracoke",
+                "Westlake Village",
+                "Petaluma",
+                "Tucson",
+                "Killeshin",
+                "Quilcene",
+                "Austin",
+                "Bend",
+                "Raleigh",
+                "Cincinnati",
+                "Spotsylvania",
+                "Anoka",
+                "Louisville",
+                "Des Moines",
+                "Portland",
+                "Saint Albans",
+                "Westminister",
+                "Jackson",
+                "Gilbert",
+                "Mount Pleasant",
+                "Boise",
+                "Milwaukee"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 46,
+            "strict_min": false,
+            "column": "city",
+            "strict_max": false,
+            "max_value": 46
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.92,
+            "strict_min": false,
+            "column": "city",
+            "strict_max": false,
+            "max_value": 0.92
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "country",
+            "mostly": 1.0,
+            "value_set": [
+                "United States",
+                "Ireland"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 2,
+            "strict_min": false,
+            "column": "country",
+            "strict_max": false,
+            "max_value": 2
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.04,
+            "strict_min": false,
+            "column": "country",
+            "strict_max": false,
+            "max_value": 0.04
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "latitude",
+            "mostly": 1.0,
+            "value_set": [
+                "48.7621709",
+                "32.24673727",
+                "34.15334",
+                "35.10715368",
+                "39.12639764",
+                "34.001703",
+                "44.08683531",
+                "45.19812039",
+                "45.4762536",
+                "41.5872267",
+                "38.6788938",
+                "43.24211175",
+                "41.289715",
+                "42.10591754",
+                "41.59928343",
+                "45.5259786",
+                "42.72010826899558",
+                "52.84930763",
+                "37.570148",
+                "39.7592508",
+                "40.50984957",
+                "33.436188",
+                "39.38269495",
+                "42.28667212",
+                "44.0912109",
+                "43.618516",
+                "39.5171702",
+                "29.9515464",
+                "32.714813",
+                "41.61556796",
+                "35.25738891",
+                "39.5172564",
+                "43.00436242",
+                "47.82347577",
+                "44.4146563",
+                "44.0575649",
+                "39.3545967",
+                "39.9782443",
+                "38.27029381",
+                "39.7614112"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 40,
+            "strict_min": false,
+            "column": "latitude",
+            "strict_max": false,
+            "max_value": 40
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "latitude",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "longitude",
+            "mostly": 1.0,
+            "value_set": [
+                "-118.9218754",
+                "-84.43116792",
+                "-87.26887786",
+                "-122.6487531",
+                "-110.9927505",
+                "-104.9839636",
+                "-111.5860662",
+                "-104.8667206",
+                "-6.979343891",
+                "-122.8755823",
+                "-97.46818222",
+                "-122.6855056",
+                "-93.38952559",
+                "-93.6120353",
+                "-86.627954",
+                "-75.97176063",
+                "-118.802397",
+                "-121.281706",
+                "-95.5186591",
+                "-70.94594149",
+                "-105.1319826",
+                "-121.2809536",
+                "-84.70634815",
+                "-119.9036592",
+                "-87.88336350209435",
+                "-119.7732015",
+                "-121.3288021",
+                "-80.15020356",
+                "-88.750264",
+                "-89.0503635",
+                "-104.9853655",
+                "-75.2565195",
+                "-116.202929",
+                "-122.665055",
+                "-117.129593",
+                "-75.37816436",
+                "-122.485982",
+                "-87.90606942",
+                "-84.3183801",
+                "-87.517422"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 40,
+            "strict_min": false,
+            "column": "longitude",
+            "strict_max": false,
+            "max_value": 40
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "longitude",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "name",
+            "mostly": 1.0,
+            "value_set": [
+                "10K Brewing",
+                "1905 Brewing Company",
+                "101 Brewery",
+                "10 Barrel Brewing Co",
+                "180 and Tapped",
+                "12 West Brewing Company",
+                "(405) Brewing Co",
+                "12 Gates Brewing Company",
+                "14th Star Brewing",
+                "1912 Brewing",
+                "10-56 Brewing Company",
+                "1840 Brewing Company",
+                "14 Lakes Brewery",
+                "12 Acres Brewing Company",
+                "127 Brewing",
+                "14 Cannons Brewing Company",
+                "1850 Brewing Company",
+                "1 of Us Brewing Company",
+                "18th Street Brewery",
+                "12Degree Brewing",
+                "1717 Brewing Co",
+                "16 Mile Brewing Co",
+                "1623 Brewing CO, llc",
+                "13 Stripes Brewery",
+                "11 Below Brewing Company",
+                "14er Brewing Company",
+                "10 Barrel Brewing Co - Denver",
+                "1817 Brewery",
+                "10 Barrel Brewing Co - Boise",
+                "13 Virtues Brewing Co",
+                "105 West Brewing Co",
+                "1718 Ocracoke Brewing",
+                "10th District Brewing Company",
+                "16 Stone Brewpub",
+                "12welve Eyes Brewing",
+                "1781 Brewing Company",
+                "10 Torr Distilling and Brewing",
+                "101 North Brewing Company",
+                "1188 Brewing Co",
+                "12 West Brewing Company - Production Facility",
+                "1323 R & D",
+                "122 West Brewing Co",
+                "(512) Brewing Co",
+                "13 Below Brewery",
+                "16 Lots Brewing",
+                "10 Barrel Brewing Co - Bend Pub"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 46,
+            "strict_min": false,
+            "column": "name",
+            "strict_max": false,
+            "max_value": 46
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.92,
+            "strict_min": false,
+            "column": "name",
+            "strict_max": false,
+            "max_value": 0.92
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "phone",
+            "mostly": 1.0,
+            "value_set": [
+                "3607656485",
+                "8643491430",
+                "7813071554",
+                "8186996165",
+                "9199775654",
+                "3022538816",
+                "2529282337",
+                "4127375273",
+                "7633924753",
+                "2172549374",
+                "6023395014",
+                "6195782311",
+                "7205738992",
+                "2624847553",
+                "4058160490",
+                "3035791004",
+                "5202564851",
+                "5032241700",
+                "7169066600",
+                "8025285988",
+                "5415751188",
+                "353599107299",
+                "5032393831",
+                "2083445870",
+                "7755307014",
+                "5415851007",
+                "3603063285",
+                "5139750613",
+                "5152437868",
+                "5172581346",
+                "5129211545",
+                "7207731437",
+                "3033257321",
+                "6308165790",
+                "6514938106",
+                "6623055907",
+                "5134863672",
+                "2814442337",
+                "2186924129",
+                "4142364056",
+                "5408412598",
+                "7077534934",
+                "3158658500"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 43,
+            "strict_min": false,
+            "column": "phone",
+            "strict_max": false,
+            "max_value": 43
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.9555555555555556,
+            "strict_min": false,
+            "column": "phone",
+            "strict_max": false,
+            "max_value": 0.9555555555555556
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "postal_code",
+            "mostly": 1.0,
+            "value_set": [
+                "02351-2419",
+                "78745-1197",
+                "27960",
+                "46320-1817",
+                "73069-8224",
+                "77066-3107",
+                "91362-3974",
+                "85296-7832",
+                "92101-6618",
+                "85207",
+                "49201-7010",
+                "29687",
+                "62510-8504",
+                "80205-2235",
+                "05478-1735",
+                "45233-1013",
+                "13354",
+                "21157",
+                "15108",
+                "95338",
+                "80027-1865",
+                "55101-1639",
+                "R93 X3X8",
+                "53406-3920",
+                "94954-7100",
+                "45040-1303",
+                "38860",
+                "97703-2465",
+                "46403-2871",
+                "56442",
+                "98225-2405",
+                "22553-4258",
+                "80109-1585",
+                "85745-1444",
+                "97701-9847",
+                "80205-2231",
+                "97202-5518",
+                "27603-1117",
+                "89502",
+                "50309-2015",
+                "97845-1210",
+                "55303-2243",
+                "19947-1849",
+                "46534",
+                "53207-1348",
+                "98376-9000",
+                "14221-7804",
+                "97701",
+                "83702-5857",
+                "97209-2620"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 50,
+            "strict_min": false,
+            "column": "postal_code",
+            "strict_max": false,
+            "max_value": 50
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "postal_code",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "state",
+            "mostly": 1.0,
+            "value_set": [
+                "Virginia",
+                "Colorado",
+                "California",
+                "Laois",
+                "Iowa",
+                "Oregon",
+                "Washington",
+                "South Carolina",
+                "Idaho",
+                "Illinois",
+                "Maryland",
+                "Michigan",
+                "Massachusetts",
+                "Pennsylvania",
+                "Vermont",
+                "Wisconsin",
+                "New York",
+                "Nevada",
+                "Oklahoma",
+                "Delaware",
+                "Minnesota",
+                "North Carolina",
+                "Ohio",
+                "Arizona",
+                "Indiana",
+                "Mississippi",
+                "Texas"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 27,
+            "strict_min": false,
+            "column": "state",
+            "strict_max": false,
+            "max_value": 27
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.54,
+            "strict_min": false,
+            "column": "state",
+            "strict_max": false,
+            "max_value": 0.54
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "state_province",
+            "mostly": 1.0,
+            "value_set": [
+                "Virginia",
+                "Colorado",
+                "California",
+                "Laois",
+                "Iowa",
+                "Oregon",
+                "Washington",
+                "South Carolina",
+                "Idaho",
+                "Illinois",
+                "Maryland",
+                "Michigan",
+                "Massachusetts",
+                "Pennsylvania",
+                "Vermont",
+                "Wisconsin",
+                "New York",
+                "Nevada",
+                "Oklahoma",
+                "Delaware",
+                "Minnesota",
+                "North Carolina",
+                "Ohio",
+                "Arizona",
+                "Indiana",
+                "Mississippi",
+                "Texas"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 27,
+            "strict_min": false,
+            "column": "state_province",
+            "strict_max": false,
+            "max_value": 27
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.54,
+            "strict_min": false,
+            "column": "state_province",
+            "strict_max": false,
+            "max_value": 0.54
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "street",
+            "mostly": 1.0,
+            "value_set": [
+                "490 Mill St",
+                "5417 Oakley Ave",
+                "294793 US Highway 101",
+                "250 Mill St, Suite PW3101",
+                "100 B South Olive St",
+                "1129 Irvin Garrish Hwy",
+                "826 W Bannock St",
+                "2005 2nd Ave",
+                "3000 E Ray Rd Bldg 6",
+                "8100 Washington Ave",
+                "820 Main St",
+                "407 Radam Ln Ste F200",
+                "413 S Bedford St",
+                "2801 Walnut St",
+                "1135 NW Galveston Ave Ste B",
+                "62970 18th St",
+                "1304 Scott St Ste D",
+                "1323 Capital Blvd 1323 R and D",
+                "2416 Meridian St",
+                "342 E Ward St",
+                "491 Washington St",
+                "62950 NE 18th St",
+                "1716 Topeka St",
+                "Unnamed Street",
+                "2620 Walnut St",
+                "753 Reading Rd",
+                "5725 Miller Ave",
+                "1043 Park St",
+                "1146 colonel Joshua Ct",
+                "322 E Court Ave",
+                "6410 SE Milwaukie Ave",
+                "11109 Plank Rd",
+                "141 E 4th St Ste LL2",
+                "2010 A State Ave",
+                "1501 E St",
+                "3090 Shirley Dr",
+                "6820 Bourgeois Rd",
+                "80 Earhart Dr Ste 20",
+                "31125 Via Colinas Ste 907",
+                "141 E Main St",
+                "2045 N Forbes Blvd Ste 105",
+                "1411 NW Flanders St",
+                "400 Brown Cir",
+                "133 N Main St Ste 7",
+                "1301 S Chestnut St",
+                "7391 Forbes Rd",
+                "9542 Main St"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 47,
+            "strict_min": false,
+            "column": "street",
+            "strict_max": false,
+            "max_value": 47
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 1.0,
+            "strict_min": false,
+            "column": "street",
+            "strict_max": false,
+            "max_value": 1.0
+        }
+    },
+    {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+            "column": "website_url",
+            "mostly": 1.0,
+            "value_set": [
+                "http://www.12welveEyes.com",
+                "https://12acresbrewing.ie/",
+                "http://www.10thdistrictbrewing.com",
+                "http://www.13virtuesbrewing.com",
+                "http://www.11belowbrewing.com",
+                "http://10barrel.com",
+                "http://www.10torr.com",
+                "http://www.1850restaurant.com",
+                "http://www.101brewery.com",
+                "http://www.512brewing.com",
+                "http://www.13belowbrewery.com",
+                "https://www.1ofusbrewing.com",
+                "http://www.ocracokebrewing.com",
+                "https://www.122westbrew.com/",
+                "http://www.1912brewing.com",
+                "http://www.18thstreetbrewery.com",
+                "http://www.12westbrewing.com",
+                "http://www.14erBrewing.com",
+                "http://www.1188brewing.com",
+                "http://www.105westbrewing.com",
+                "http://www.1840brewing.com",
+                "http://www.405brewing.com",
+                "http://www.16stonebrewpub.com",
+                "http://14cannons.com",
+                "http://www.14thstarbrewing.com",
+                "http://www.16lots.com",
+                "http://1905BrewingCompany.com",
+                "http://www.12gatesbrewing.com",
+                "http://www.1323rnd.com",
+                "http://www.16milebrewery.com",
+                "http://10KBrew.com",
+                "http://www.101northbeer.com",
+                "http://www.10barrel.com",
+                "http://www.180andtapped.com",
+                "http://1717brewing.com",
+                "http://www.12degree.com",
+                "http://www.13StripesBrewery.com"
+            ]
+        }
+    },
+    {
+        "expectation_type": "expect_column_unique_value_count_to_be_between",
+        "kwargs": {
+            "min_value": 37,
+            "strict_min": false,
+            "column": "website_url",
+            "strict_max": false,
+            "max_value": 37
+        }
+    },
+    {
+        "expectation_type": "expect_column_proportion_of_unique_values_to_be_between",
+        "kwargs": {
+            "min_value": 0.9487179487179487,
+            "strict_min": false,
+            "column": "website_url",
+            "strict_max": false,
+            "max_value": 0.9487179487179487
+        }
+    }
+]
