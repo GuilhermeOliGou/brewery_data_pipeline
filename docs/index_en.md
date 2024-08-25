@@ -44,8 +44,10 @@ brewery_data_pipeline/
 ├── docs/
 │   └── docs_1.md
 │
-├── great_expectations/
-│   └── brewery_expectations.py
+├── gx/
+│   ├── expectations/
+│   │   └── expectations.json
+│   └── expectations_generator.py
 │
 ├── notebooks/
 │   ├── data_transformation_notebook_1.ipynb
@@ -70,7 +72,7 @@ brewery_data_pipeline/
 - [x] Local library src
 
 ### Until August 24th
-- [ ] Great Expectations validations
+- [x] Great Expectations validations
 
 ### Until August 31th
 - [ ] Unit tests
@@ -86,3 +88,4 @@ brewery_data_pipeline/
 - **2024-07-26**: Release of the Local library src feature
 - **2024-08-13**: Roadmap update
 - **2024-08-20**: Feature priority change
+- **2024-08-24**: Release of the Great Expectations validations feature
