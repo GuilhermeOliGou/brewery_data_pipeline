@@ -16,13 +16,11 @@ default_args = {
     ,'execution_timeout':dt.timedelta(minutes=10)
     ,'retries': 2
     ,'retry_delay': dt.timedelta(minutes=5)
-    ,'start_date': dt.datetime(2024, 7, 26)
 }
 
 with DAG(
     dag_id='brewery_pipeline'
     ,default_args=default_args
-    ,schedule_interval='@daily'
     ,dagrun_timeout=dt.timedelta(minutes=30)
     ,description='Pipeline para tratar os dados de cervejarias da openbrewerydb.'
 ) as dag:
