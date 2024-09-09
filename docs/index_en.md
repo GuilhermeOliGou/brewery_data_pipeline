@@ -74,11 +74,9 @@ brewery_data_pipeline/
 ### Until August 24th
 - [x] Great Expectations validations
 
-### Until August 31th
+### Until July 1st 2025
 - [ ] Unit tests
 - [ ] CI/CD with Github actions
-
-### Until September 24th
 - [ ] Containerization using Docker
 
 ### Updates
@@ -89,3 +87,4 @@ brewery_data_pipeline/
 - **2024-08-13**: Roadmap update
 - **2024-08-20**: Feature priority change
 - **2024-08-24**: Release of the Great Expectations validations feature
+- **2024-09-09**: Roadmap update
